@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".calculator">
+    <EditText
+        android:id="@+id/first_value"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="first value"/>
+    <EditText
+        android:id="@+id/second_value"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="second value"/>
+    <Button
+        android:onClick="docalculation"
+        android:id="@+id/addition_button"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="add(+)"/>
+    <Button
+        android:onClick="docalculation"
+        android:id="@+id/substraction_button"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="subtract(-)"/>
+    <Button
+        android:onClick="docalculation"
+        android:id="@+id/multiply_button"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="multiply(*)"/>
+    <Button
+        android:onClick="docalculation"
+        android:id="@+id/divison_button"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="divide(/)"/>
+
+    <TextView
+        android:textSize="25sp"
+        android:gravity="center"
+        android:id="@+id/answer_box"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+
+
+
+
+
+
+</LinearLayout>
